@@ -1,5 +1,8 @@
 # Simple Calculator Chrome Extension
 
+[STORE LINK](https://chromewebstore.google.com/detail/simple-calculator/cjnddigogifkmjnhdifbkckgmmenmaen?authuser=0&hl=en-US)
+
+
 A basic calculator Chrome extension for quick mathematical calculations directly within your browser. This extension provides essential arithmetic operations and is designed with a clean, user-friendly interface.
 
 ![Calculator Screenshot 1](images/firstimage.png)
