@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+
+Copyright © 2023 Mehmet Ali KABA
+
+For more information or anything contact To@mehmetalikaba.com or find me on https://mehmetalikaba.com/links
+
+
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Basic Calculator Extension for browsers.">
+    <meta name="author" content="Mehmet Ali KABA">
+    <meta name="keywords" content="basic-calculator, calculator, basiccalculator, calculator-extension, simple-calculator">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #172C13;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <span id="output">0</span>
+        </div>
+        <div class="buttons">
+            <button class="btn lightgray" onclick="clearAll()">AC</button>
+            <button class="btn lightgray" onclick="percentage()">%</button>
+            <button class="btn lightgray" onclick="deleteLastDigit()">&#x2190;</button>
+            <button class="btn orange" onclick="operate('/')">/</button>
+            <button class="btn darkgray" onclick="appendValue('7')">7</button>
+            <button class="btn darkgray" onclick="appendValue('8')">8</button>
+            <button class="btn darkgray" onclick="appendValue('9')">9</button>
+            <button class="btn orange" onclick="operate('*')">*</button>
+            <button class="btn darkgray" onclick="appendValue('4')">4</button>
+            <button class="btn darkgray" onclick="appendValue('5')">5</button>
+            <button class="btn darkgray" onclick="appendValue('6')">6</button>
+            <button class="btn orange" onclick="operate('-')">-</button>
+            <button class="btn darkgray" onclick="appendValue('1')">1</button>
+            <button class="btn darkgray" onclick="appendValue('2')">2</button>
+            <button class="btn darkgray" onclick="appendValue('3')">3</button>
+            <button class="btn orange" onclick="operate('+')">+</button>
+            <button class="btn lightgray" onclick="negative()">+/-</button>
+            <button class="btn darkgray " onclick="appendValue('0')">0</button>
+            <button class="btn lightgray" onclick="appendValue('.')">.</button>
+            <button class="btn green" onclick="calculate()">=</button>
+            
+           
+        </div>
+    </div>
+
+    </div>
+
+    
+    <script src="scripts.js"></script>
+    
+    
+</body>
+
+</html>
